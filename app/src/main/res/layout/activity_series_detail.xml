@@ -1,0 +1,77 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myCoordinatorLayout"
+    tools:context=".SeriesDetailActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/_series_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_170sdp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:expandedTitleGravity="top"
+            app:titleEnabled="false"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:id="@+id/thumbnail_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_170sdp"
+                        android:alpha=".4"
+                        android:background="#000000" />
+
+                    <ImageView
+                        android:id="@+id/detail_play"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:alpha="0"
+                        android:src="@drawable/ic_play" />
+                </com.google.android.material.card.MaterialCardView>
+            </FrameLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:elevation="0dp"
+                app:layout_collapseMode="pin"
+                app:title=" "
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_series_detail" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

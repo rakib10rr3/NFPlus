@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/exo_play"-->
+        <!--android:layout_width="70dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@drawable/player_play_button_background"-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:src="@drawable/ic_play_arrow_white_24dp" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/exo_pause"-->
+        <!--android:layout_width="70dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@drawable/player_pause_button_background"-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:src="@drawable/ic_pause_pause_24dp" />-->
+
+    <!--<com.google.android.exoplayer2.ui.DefaultTimeBar-->
+        <!--android:id="@+id/exo_progress"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_margin="15dp"-->
+        <!--app:buffered_color="@color/buffered"-->
+        <!--app:played_color="@color/played"-->
+        <!--app:scrubber_color="@color/scrubber"-->
+        <!--app:unplayed_color="@color/unplayed" />-->
+</FrameLayout>

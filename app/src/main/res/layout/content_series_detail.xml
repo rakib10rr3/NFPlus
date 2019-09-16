@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/detail_series_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:text="Friends"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:visibility="gone"
+            android:paddingEnd="10dp"
+            android:id="@+id/detail_series_fav_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_favorite_border_series"
+            android:tag="not_fav" />
+
+        <TextView
+            android:id="@+id/detail_series_episode_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_series_title"
+            android:layout_marginTop="13dp"
+            android:text="The One with the Sonogram at the End"
+            android:textStyle="italic"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/detail_series_episode_season_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_series_episode_title"
+            android:text="Season 1"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/detail_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_series_episode_title"
+            android:layout_toRightOf="@id/detail_series_episode_season_no"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:text="•"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/detail_series_episode_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_series_episode_title"
+            android:layout_toRightOf="@+id/detail_dot"
+            android:text="Episode 2"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/detail_series_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_series_episode_season_no"
+            android:paddingTop="5dp"
+            android:text="The misadventures of a group of friends as they navigate the pitfalls of work, life and love in Manhattan." />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingEnd="10dp"
+            android:paddingStart="@dimen/_5sdp"
+            android:id="@+id/detail_chip_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_series_story"
+            android:clipToPadding="false" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_chip_rv"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabTextColor="#333333">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Episodes" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Like This" />
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tabs"
+            android:background="#BDBDBD" />
+
+
+        <FrameLayout
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tabs"
+            android:paddingTop="10dp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:shimmer="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="56dp"
+    android:background="#eeeeee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_160sdp" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_play" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/movies_category"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Favorites"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_fav_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    app:rippleColor="@color/blue"
+                    android:text="More"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_favourite_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/view_all"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Actions"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_action_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_action_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_action_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Animation"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_animation_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_animation_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_animation_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Comedy"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_comedy_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_comedy_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_comedy_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Crime"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_crime_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_crime_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_crime_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Drama"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_drama_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_drama_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_drama_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="History"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_history_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_history_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_history_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Horror"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_horror_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_horror_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_horror_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Music"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_music_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_music_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_music_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Mystery"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_mystery_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_mystery_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_mystery_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Romance"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_romance_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_romance_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_romance_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="War"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_war_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_war_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_war_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:paddingStart="7dp"
+                    android:text="Western"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/movies_western_all_btn"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    app:rippleColor="@color/blue"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_western_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                shimmer:duration="600">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                    <include layout="@layout/movie_placeholder_item"/>
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movies_western_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:clipToPadding="false"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

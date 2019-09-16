@@ -1,0 +1,35 @@
+<FrameLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shimmer="http://schemas.android.com/tools">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:visibility="gone"
+        android:id="@+id/shimmer_cricket_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        shimmer:duration="600">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include layout="@layout/cricket_placeholder_item"/>
+            <include layout="@layout/cricket_placeholder_item"/>
+            <include layout="@layout/cricket_placeholder_item"/>
+            <include layout="@layout/cricket_placeholder_item"/>
+            <include layout="@layout/cricket_placeholder_item"/>
+            <include layout="@layout/cricket_placeholder_item"/>
+            <include layout="@layout/cricket_placeholder_item"/>
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cricket_rv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:padding="4dp" />
+
+</FrameLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EpisodesFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/episodes_season_cv"
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="5dp"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:strokeColor="#BDBDBD"
+        app:strokeWidth="1dp">
+
+        <RelativeLayout
+            android:layout_gravity="start|center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingTop="2dp"
+                android:paddingStart="15dp"
+                android:id="@+id/season"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Season " />
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_toRightOf="@id/season"
+                android:id="@+id/season_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" />
+            <ImageView
+                android:paddingEnd="5dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_arrow_drop_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:padding="5dp"
+        android:id="@+id/episodes_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="10dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

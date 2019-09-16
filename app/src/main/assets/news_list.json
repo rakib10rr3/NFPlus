@@ -1,0 +1,784 @@
+{
+  "news": [
+    {
+      "name": "Daily Sharebiz ",
+      "link": "http://www.dailysharebiz.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506114545.jpg"
+    },
+    {
+      "name": "sharenews24.com",
+      "link": "http://www.sharenews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141209003712.jpg"
+    },
+    {
+      "name": "Prothom Alo",
+      "link": "http://www.prothom-alo.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140429153252.jpg"
+    },
+    {
+      "name": "Bangladesh protidin",
+      "link": "http://www.bd-pratidin.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140429153923.jpg"
+    },
+    {
+      "name": "Daily Ittefaq",
+      "link": "http://www.ittefaq.com.bd/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140429154515.jpg"
+    },
+    {
+      "name": "Daily Kalerkantho",
+      "link": "http://www.kalerkantho.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140429155212.jpg"
+    },
+    {
+      "name": "Daily Nayadiganta",
+      "link": "http://www.dailynayadiganta.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140429155804.jpg"
+    },
+    {
+      "name": "Daily Amardesh ",
+      "link": "http://www.amardeshonline.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430132931.jpg"
+    },
+    {
+      "name": "Daily Shokaler Khobor",
+      "link": "http://www.shokalerkhabor.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430133537.jpg"
+    },
+    {
+      "name": "Daily Inqilab",
+      "link": "http://www.dailyinqilab.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430134933.jpg"
+    },
+    {
+      "name": "Daily Jugantor",
+      "link": "http://www.jugantor.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430135541.jpg"
+    },
+    {
+      "name": "Daily Sangram",
+      "link": "http://www.dailysangram.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430140126.jpg"
+    },
+    {
+      "name": "Daily Manabzamin",
+      "link": "http://www.mzamin.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430140923.jpg"
+    },
+    {
+      "name": "Daily Amader Somoy",
+      "link": "http://www.amadershomoys.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430141645.jpg"
+    },
+    {
+      "name": "Daily Somokal",
+      "link": "http://www.samakal.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430142048.jpg"
+    },
+    {
+      "name": "Daily Janakontho",
+      "link": "http://www.dailyjanakantha.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430142622.jpg"
+    },
+    {
+      "name": "Daily Bartoman ",
+      "link": "http://www.dailybartoman.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430143018.jpg"
+    },
+    {
+      "name": "Jaijai din",
+      "link": "http://www.jjdin.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506100545.jpg"
+    },
+    {
+      "name": "Bhorer Kagoj",
+      "link": "http://www.bhorerkagoj.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506101244.jpg"
+    },
+    {
+      "name": "Daily Manobkantha",
+      "link": "http://www.manobkantha.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506101903.jpg"
+    },
+    {
+      "name": "SuproBhat Bangladesh",
+      "link": "http://www.suprobhat.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506103423.jpg"
+    },
+    {
+      "name": "Daily Sangbad",
+      "link": "http://www.sangbad.com.bd/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506104418.jpg"
+    },
+    {
+      "name": "Daily Bonikbarta",
+      "link": "http://www.bonikbarta.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506104709.jpg"
+    },
+    {
+      "name": "Daily Dinkal",
+      "link": "http://www.dailydinkal.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506105231.jpg"
+    },
+    {
+      "name": "Daily Destiny ",
+      "link": "http://www.dainikdestiny.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506113908.jpg"
+    },
+    {
+      "name": "Daily Sharebiz ",
+      "link": "http://www.dailysharebiz.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506114545.jpg"
+    },
+    {
+      "name": "natun-barta.com",
+      "link": "http://www.natun-barta.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141219032244.jpg"
+    },
+    {
+      "name": "khabarpatrabd.com",
+      "link": "http://www.khabarpatrabd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141219032752.jpg"
+    },
+    {
+      "name": "dailyvorerpata.com",
+      "link": "http://www.dailyvorerpata.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141219033037.jpg"
+    },
+    {
+      "name": "weeklysonarbangla.net",
+      "link": "http://www.weeklysonarbangla.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141219033410.jpg"
+    },
+    {
+      "name": "gonokantho.com",
+      "link": "http://www.gonokantho.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141219034237.jpg"
+    },
+    {
+      "name": "bdnews24.com",
+      "link": "http://www.bangla.bdnews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140429160559.jpg"
+    },
+    {
+      "name": "Banglanews24.com",
+      "link": "http://www.banglanews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140429161353.jpg"
+    },
+    {
+      "name": "nirbhik.com",
+      "link": "http://www.nirbhik.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/nirviklogo.PNG"
+    },
+    {
+      "name": "Priyo.com",
+      "link": "http://www.priyo.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140429162436.jpg"
+    },
+    {
+      "name": "banglamail24.com",
+      "link": "http://www.banglamail24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140429163107.jpg"
+    },
+    {
+      "name": "bangladeshpress.com",
+      "link": "http://www.bangladeshpress.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/Bangladesh-Pres.jpg"
+    },
+    {
+      "name": "Sheersha News",
+      "link": "http://www.sheershanews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430145421.jpg"
+    },
+    {
+      "name": "gssnews.com",
+      "link": "http://bangla.gssnews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/gssnewslogo.jpg"
+    },
+    {
+      "name": "Just News Bangladesh",
+      "link": "http://www.justnewsbd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430150801.jpg"
+    },
+    {
+      "name": "uttaranews.com",
+      "link": "http://www.uttaranews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/uttara-news.jpg"
+    },
+    {
+      "name": "Dhaka Times 24",
+      "link": "http://www.dhakatimes24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430151702.jpg"
+    },
+    {
+      "name": "alltimenews.com",
+      "link": "http://www.alltimenews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/alltimenws.jpg"
+    },
+    {
+      "name": "Raising Bangladesh",
+      "link": "http://www.risingbd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430152758.jpg"
+    },
+    {
+      "name": "gonomot.com",
+      "link": "http://www.gonomot.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/gonomotlog.jpg"
+    },
+    {
+      "name": "bdview24.com",
+      "link": "http://www.bdview24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/bdview24logo.jpg"
+    },
+    {
+      "name": "Thereport24.com",
+      "link": "http://www.thereport24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140505025033.jpg"
+    },
+    {
+      "name": "Dhaka Protidin",
+      "link": "http://www.dhakaprotidin.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140505025659.jpg"
+    },
+    {
+      "name": "Dhaka Report24",
+      "link": "http://www.dhakareport24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/logo.jpg"
+    },
+    {
+      "name": "ton24.com",
+      "link": "http://www.ton24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/ton24.jpg"
+    },
+    {
+      "name": "theglobalnews24.com",
+      "link": "http://www.theglobalnews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/theglobalnews24logo.jpg"
+    },
+    {
+      "name": "Bengalinews24.com",
+      "link": "http://www.bengalinews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506102658.jpg"
+    },
+    {
+      "name": "nagorikkantha.com",
+      "link": "http://www.nagorikkantha.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/nagorik-kantah.jpg"
+    },
+    {
+      "name": "subornonews24.com",
+      "link": "http://www.subornonews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/subornonews24.jpg"
+    },
+    {
+      "name": "ATN TIMES",
+      "link": "http://www.atntimes.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140506111040.jpg"
+    },
+    {
+      "name": "Mediakhabor.com",
+      "link": "http://www.mediakhabor.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/mediakhobr.png"
+    },
+    {
+      "name": "drutobarta.com",
+      "link": "http://www.drutobarta.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/durtobarta.jpg"
+    },
+    {
+      "name": "bisherbashi.com",
+      "link": "http://www.bisherbashi.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/bisher-basi.jpg"
+    },
+    {
+      "name": "1newsbd.com",
+      "link": "http://www.1newsbd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/one-news-logo.jpg"
+    },
+    {
+      "name": "prohornews.com",
+      "link": "http://www.prohornews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/prohornnews.png"
+    },
+    {
+      "name": "natunbarta.com",
+      "link": "http://www.natunbarta.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/natunbartar.jpg"
+    },
+    {
+      "name": "photobazar24.com",
+      "link": "http://www.photobazar24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/photobazar24.jpg"
+    },
+    {
+      "name": "famousnews24.com",
+      "link": "http://www.bangla.famousnews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/Famousnews24.jpg"
+    },
+    {
+      "name": "Different News",
+      "link": "http://www.dnewsbd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/dnews.jpg"
+    },
+    {
+      "name": "onn24.com",
+      "link": "http://www.onn24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140704125503.jpg"
+    },
+    {
+      "name": "Real Time News",
+      "link": "http://www.rtnn.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/index.jpg"
+    },
+    {
+      "name": "gbangla24.com",
+      "link": "http://www.gbangla24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/gbangla-logo.jpg"
+    },
+    {
+      "name": "Time News",
+      "link": "http://www.timenewsbd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140822104206.jpg"
+    },
+    {
+      "name": "jamunanews24.com",
+      "link": "http://www.jamunanews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/jamunanews24.jpg"
+    },
+    {
+      "name": "arthosuchak.com",
+      "link": "http://www.arthosuchak.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140825102821.jpg"
+    },
+    {
+      "name": "bd24live.com",
+      "link": "http://www.bd24live.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140915113203.jpg"
+    },
+    {
+      "name": "timesofbangla.com",
+      "link": "http://www.timesofbangla.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/timeofbd.jpg"
+    },
+    {
+      "name": "poriborton.com",
+      "link": "http://www.poriborton.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140918144921.jpg"
+    },
+    {
+      "name": "www.prothombarta.com",
+      "link": "http://www.prothombarta.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140923071103.jpg"
+    },
+    {
+      "name": "tnnnews24.com",
+      "link": "http://www.tnnnews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141017090600.jpg"
+    },
+    {
+      "name": "bssnews.net",
+      "link": "http://www.bssnews.net/bangla/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141027014237.jpg"
+    },
+    {
+      "name": "ukbdnews.com",
+      "link": "http://www.ukbdnews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141027104434.jpg"
+    },
+    {
+      "name": "dhakacrimenews24.com",
+      "link": "http://www.dhakacrimenews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141030120637.jpg"
+    },
+    {
+      "name": "News of Bangladesh",
+      "link": "http://www.newsofbangladesh.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141107100217.jpg"
+    },
+    {
+      "name": "Primenewsbd.com",
+      "link": "http://www.primenewsbd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141107102411.jpg"
+    },
+    {
+      "name": "Eurobdnews.com",
+      "link": "http://www.eurobdnews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141107102817.jpg"
+    },
+    {
+      "name": "dhakatribune.com",
+      "link": "http://www.dhakatribune.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141107110534.jpg"
+    },
+    {
+      "name": "now-bd.com",
+      "link": "http://www.now-bd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141107110909.jpg"
+    },
+    {
+      "name": "somoyerkonthosor.com",
+      "link": "http://www.somoyerkonthosor.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141107112716.jpg"
+    },
+    {
+      "name": "bdmail24.net",
+      "link": "http://www.bdmail24.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141107114334.jpg"
+    },
+    {
+      "name": "mtnews24.com",
+      "link": "http://www.mtnews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141107114637.jpg"
+    },
+    {
+      "name": "deshebideshe.com",
+      "link": "http://www.deshebideshe.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141107115019.jpg"
+    },
+    {
+      "name": "boichitranews24.com",
+      "link": "http://www.boichitranews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141110035927.jpg"
+    },
+    {
+      "name": "khaboronline24.com",
+      "link": "http://www.khaboronline24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/khaboaronlhne.jpg"
+    },
+    {
+      "name": "kuakatanews.com",
+      "link": "http://www.kuakatanews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141119081958.jpg"
+    },
+    {
+      "name": "asiabarta24.com",
+      "link": "http://www.asiabarta24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141120111423.jpg"
+    },
+    {
+      "name": "bartabangla.com",
+      "link": "http://www.bartabangla.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141120123527.jpg"
+    },
+    {
+      "name": "ajkersomoy.com",
+      "link": "http://www.ajkersomoy.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141123074937.jpg"
+    },
+    {
+      "name": "privatehealthdoctor.com",
+      "link": "http://www.privatehealthdoctor.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141125100623.jpg"
+    },
+    {
+      "name": "banglatimes24.com",
+      "link": "http://www.banglatimes24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/banglatimes.jpg"
+    },
+    {
+      "name": "zoombangla.com",
+      "link": "http://news.zoombangla.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141129132034.jpg"
+    },
+    {
+      "name": "sharenews24.com",
+      "link": "http://www.sharenews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141209003712.jpg"
+    },
+    {
+      "name": "akhonsomoy.com",
+      "link": "http://www.akhonsomoy.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/akhonsomoyLOGO.jpg"
+    },
+    {
+      "name": "bdtimenews24.com",
+      "link": "http://www.bdtimenews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141209070540.jpg"
+    },
+    {
+      "name": "ibarta.com",
+      "link": "http://www.ibarta.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141217063105.jpg"
+    },
+    {
+      "name": "mongoldhoni.net",
+      "link": "http://www.mongoldhoni.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141218084555.jpg"
+    },
+    {
+      "name": "dailylive24.com",
+      "link": "http://www.dailylive24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141218084818.jpg"
+    },
+    {
+      "name": "egnews24.com",
+      "link": "http://www.egnews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141218085405.jpg"
+    },
+    {
+      "name": "bdhotnews.com",
+      "link": "http://www.bdhotnews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141219032508.jpg"
+    },
+    {
+      "name": "newsnetbd.com",
+      "link": "http://www.newsnetbd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141219033758.jpg"
+    },
+    {
+      "name": "foringnews24.com",
+      "link": "http://www.foringnews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141219122134.jpg"
+    },
+    {
+      "name": "bdcricteam.com",
+      "link": "http://www.bdcricteam.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141219122317.jpg"
+    },
+    {
+      "name": "dhakatimes.com.bd",
+      "link": "http://www.dhakatimes.com.bd/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141221031622.jpg"
+    },
+    {
+      "name": "crimebdnews24.com",
+      "link": "http://www.crimebdnews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/crimenews.jpg"
+    },
+    {
+      "name": "primenews.com.bd",
+      "link": "http://www.primenews.com.bd/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141222095427.jpg"
+    },
+    {
+      "name": "abnews24.com",
+      "link": "http://www.abnews24.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20141222105209.jpg"
+    },
+    {
+      "name": "Khulna News",
+      "link": "http://www.khulnanews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430010858.jpg"
+    },
+    {
+      "name": "Daily Azadi",
+      "link": "http://www.dainikazadi.org/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430011512.jpg"
+    },
+    {
+      "name": "Daily Purbokone",
+      "link": "http://www.dainikpurbokone.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430012346.jpg"
+    },
+    {
+      "name": "Daily Amader Comilla",
+      "link": "http://www.dailyamadercomilla.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430013043.jpg"
+    },
+    {
+      "name": "Daily Purbanchal",
+      "link": "http://www.purbanchal.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430013506.jpg"
+    },
+    {
+      "name": "Barisal News",
+      "link": "http://www.barisalnews.com/bangla/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501042343.jpg"
+    },
+    {
+      "name": "Noakhali Web",
+      "link": "http://www.noakhaliweb.com.bd/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501043454.jpg"
+    },
+    {
+      "name": "Daily MathaBhanga",
+      "link": "http://mathabhanga.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501044005.jpg"
+    },
+    {
+      "name": "purbodiganta.com",
+      "link": "http://www.purbodiganta.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/purbodiganto.....jpg"
+    },
+    {
+      "name": "Chandpur Web",
+      "link": "http://www.chandpurweb.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501045022.jpg"
+    },
+    {
+      "name": "Daily Khowai",
+      "link": "http://www.dailykhowai.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501045343.jpg"
+    },
+    {
+      "name": "Uttara News",
+      "link": "http://www.uttaranews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501045610.jpg"
+    },
+    {
+      "name": "Daily Karatoa",
+      "link": "http://www.karatoa.com.bd/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501050631.jpg"
+    },
+    {
+      "name": "Satkhira News",
+      "link": "http://www.satkhiranews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501051104.jpg"
+    },
+    {
+      "name": "Daily Sylhet",
+      "link": "http://www.dainiksylhet.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501054305.jpg"
+    },
+    {
+      "name": "AFP News",
+      "link": "http://www.afp.com/en/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430014731.jpg"
+    },
+    {
+      "name": "Google News",
+      "link": "http://news.google.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430015412.jpg"
+    },
+    {
+      "name": "The Guardian ",
+      "link": "http://www.theguardian.com/uk/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430015756.jpg"
+    },
+    {
+      "name": "ABC NEWS",
+      "link": "http://www.abcnews.go.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430020157.jpg"
+    },
+    {
+      "name": "The Daily Star",
+      "link": "http://www.thedailystar.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430020838.jpg"
+    },
+    {
+      "name": "The Moscow Times",
+      "link": "http://www.themoscowtimes.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501064023.jpg"
+    },
+    {
+      "name": "The Independent ",
+      "link": "http://www.theindependentbd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501064327.jpg"
+    },
+    {
+      "name": "New Age",
+      "link": "http://www.newagebd.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501064657.jpg"
+    },
+    {
+      "name": "Yahoo News",
+      "link": "http://www.news.yahoo.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501065105.jpg"
+    },
+    {
+      "name": "Daily Sun",
+      "link": "http://www.daily-sun.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501065413.jpg"
+    },
+    {
+      "name": "The Bangladesh Today",
+      "link": "http://www.thebangladeshtoday.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501065725.jpg"
+    },
+    {
+      "name": "News Today",
+      "link": "http://www.newstoday.com.bd/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501070010.jpg"
+    },
+    {
+      "name": "The Financial Express",
+      "link": "http://www.thefinancialexpress-bd.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501070407.jpg"
+    },
+    {
+      "name": "New York Times",
+      "link": "http://www.nytimes.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501071030.jpg"
+    },
+    {
+      "name": "Hindustan Times",
+      "link": "http://www.hindustantimes.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501071539.jpg"
+    },
+    {
+      "name": "CNN NEWS",
+      "link": "http://www.edition.cnn.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430085025.jpg"
+    },
+    {
+      "name": "Aljazeera News",
+      "link": "http://www.aljazeera.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430085917.jpg"
+    },
+    {
+      "name": "BBC NEWS",
+      "link": "http://www.bbc.com/news/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430090809.jpg"
+    },
+    {
+      "name": "New Delhi Television",
+      "link": "http://www.ndtv.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430091530.jpg"
+    },
+    {
+      "name": "Thomson Reuters",
+      "link": "http://www.reuters.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140430092309.jpg"
+    },
+    {
+      "name": "Fox News",
+      "link": "http://www.foxnews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501084711.jpg"
+    },
+    {
+      "name": "GEO NEWS",
+      "link": "http://www.geo.tv/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501085038.jpg"
+    },
+    {
+      "name": "Al Arabiya ",
+      "link": "http://www.english.alarabiya.net/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501085648.jpg"
+    },
+    {
+      "name": "Sky News",
+      "link": "http://www.news.sky.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501090318.jpg"
+    },
+    {
+      "name": "Euro News",
+      "link": "http://www.euronews.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140501090856.jpg"
+    },
+    {
+      "name": "all online free games",
+      "link": "http://www.allonlinefreegames.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140723120952.jpg"
+    },
+    {
+      "name": "Press TV",
+      "link": "http://www.presstv.ir/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140817122549.jpg"
+    },
+    {
+      "name": "KBS TV ",
+      "link": "http://http://www.kbs.co.kr//",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140817124226.jpg"
+    },
+    {
+      "name": "Discovery Channel",
+      "link": "http://www.discovery.com/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140817125154.jpg"
+    },
+    {
+      "name": "CCTV Chaina",
+      "link": "http://www.english.cntv.cn/",
+      "img": "https://portal.kslbd.net/_static/storage.cms/news/img/20140817125948.jpg"
+    }
+  ]
+}

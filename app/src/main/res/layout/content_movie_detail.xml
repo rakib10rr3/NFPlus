@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:paddingTop="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:paddingStart="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/open_sans_semi_bold"
+            android:textColor="#333333"
+            android:id="@+id/detail_movie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/detail_movie_fav_btn"
+            android:text="Captain Marvel" />
+
+
+        <ImageButton
+            android:visibility="gone"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="16dp"
+            android:tag="not_fav"
+            android:id="@+id/detail_movie_fav_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_favorite_border" />
+
+        <TextView
+            android:fontFamily="@font/open_sans_light"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/detail_movie_desc"
+            android:layout_width="match_parent"
+            android:textColor="#999999"
+            android:textSize="13sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_movie_title"
+            android:paddingTop="5dp"
+            android:text="The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe." />
+
+        <TextView
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:layout_below="@id/detail_movie_desc"
+            android:text="Starring: "
+            android:id="@+id/starring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingEnd="10dp"
+            android:textSize="10sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/stars"
+            android:layout_toRightOf="@id/starring"
+            android:layout_below="@id/detail_movie_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingEnd="10dp"
+            android:paddingStart="@dimen/_5sdp"
+            android:layout_below="@id/stars"
+            android:id="@+id/detail_chip_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:layout_marginBottom="10dp">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <!--<com.google.android.material.chip.Chip-->
+            <!--android:visibility="gone"-->
+            <!--style="@style/Widget.MaterialComponents.Chip.Action"-->
+            <!--app:chipBackgroundColor="#FFFFFF"-->
+            <!--app:chipStrokeColor="@color/blue"-->
+            <!--app:chipStrokeWidth="1dp"-->
+            <!--android:textColor="@color/blue"-->
+            <!--android:id="@+id/detail_chip1"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"-->
+            <!--android:layout_below="@id/detail_movie_desc"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Action"/>-->
+        <!--<com.google.android.material.chip.Chip-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_marginLeft="2dp"-->
+            <!--android:includeFontPadding="false"-->
+            <!--style="@style/Widget.MaterialComponents.Chip.Action"-->
+            <!--app:chipBackgroundColor="#FFFFFF"-->
+            <!--app:chipStrokeColor="@color/blue"-->
+            <!--app:chipStrokeWidth="1dp"-->
+
+            <!--android:textColor="@color/blue"-->
+            <!--android:textSize="8sp"-->
+            <!--android:layout_toRightOf="@id/detail_chip1"-->
+            <!--android:id="@+id/detail_chip2"-->
+            <!--android:layout_below="@id/detail_movie_desc"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Adventure"/>-->
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_chip_rv"
+            app:tabIndicatorColor="@color/blue"
+            app:tabGravity="center"
+            app:tabMode="scrollable"
+            app:tabTextColor="#333333">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You May Also Like" />
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/tabs"
+            android:background="#BDBDBD" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tabs"
+            android:paddingTop="10dp"/>
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

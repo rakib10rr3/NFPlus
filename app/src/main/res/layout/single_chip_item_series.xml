@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.MaterialComponents.Chip.Action"
+    app:chipBackgroundColor="#FFFFFF"
+    app:chipStrokeColor="@color/colorPrimary"
+    app:chipStrokeWidth="1dp"
+    android:textColor="@color/colorPrimary"
+    android:id="@+id/detail_chip"
+    android:layout_marginEnd="2dp"
+    android:paddingStart="2dp"
+    android:paddingEnd="2dp"
+    android:includeFontPadding="false"
+    android:layout_marginStart="@dimen/_2sdp"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+    android:layout_below="@id/detail_movie_desc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Action"
+    />

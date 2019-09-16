@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/episode_thumbnail_fl"
+        android:layout_width="130dp"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/episode_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha=".4"
+            android:background="#000000" />
+
+        <ImageView
+            android:src="@drawable/ic_play"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:text="1."
+        android:id="@+id/episode_number"
+        android:paddingStart="5dp"
+        android:layout_toRightOf="@id/episode_thumbnail_fl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textStyle="bold"
+        android:text="Title"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:id="@+id/episode_name"
+        android:layout_toEndOf="@id/episode_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingStart="5dp"
+        android:text="22 min"
+        android:id="@+id/episode_duration"
+        android:layout_toEndOf="@id/episode_thumbnail_fl"
+        android:layout_below="@id/episode_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingTop="3dp"
+        android:text="This is the one where it all began ... Rachel leaves Barry at the altar, meets the gang, and moves in with Monica. Monica, meanwhile, sleeps with Paul the Wine Guy, and Ross is reeling from his divorce from Carol, who has become a lesbian."
+        android:id="@+id/episode_description"
+        android:layout_below="@id/episode_thumbnail_fl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
